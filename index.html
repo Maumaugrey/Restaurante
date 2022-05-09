@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Restaurante em andamento</title>
+
+   <!-- fontes  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- css   -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- menu     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> Orient </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">Sobre nós</a>
+      <a href="#food">Comidas</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#menu">Cardápio</a>
+      <a href="#order">Pedidos</a>
+      <a href="#blogs">Destaques</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/pizza.jpg) no-repeat;">
+            <div class="content">
+               <span>Longa Fermentação</span>
+               <h3>Pizza</h3>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/pasta.jpg) no-repeat;">
+            <div class="content">
+               <span>Massas Artesanais</span>
+               <h3>Pastas</h3>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/doces.jpg) no-repeat;">
+            <div class="content">
+               <span>Doces Sofisticados</span>
+               <h3>Sobremesas</h3>
+               <a href="#" class="btn">Saiba mais</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/Cheese-Pizza-PNG-File.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Bem-Vindo Ao Nosso Restaurante</h3>
+      <p>Nossas pizzas artesanais, como o próprio nome já diz, são preparadas com a massa aberta na mão, o molho de tomate é fresco produzido pelo restaurante e os demais ingredientes também não passam por qualquer processo industrial</p>
+      <a href="#" class="btn">Saiba Mais</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>Pratos</h3>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>Bebidas</h3>
+         </div>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- food section starts  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Pizzas Populares</span>
+      <h3>Fermentação Natural</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/cogumelos.png" alt="">
+            <h3>Cogumelo</h3>
+            <div class="price">$70</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/Parma.png" alt="">
+            <h3>Parma</h3>
+            <div class="price">$75</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/Marguerita.png" alt="">
+            <h3>Marguerita</h3>
+            <div class="price">$60</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/musssssarela.png" alt="">
+            <h3>Mussarela</h3>
+            <div class="price">$60</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/vegana.png" alt="">
+            <h3>Vegana</h3>
+            <div class="price">$55</div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- food section ends -->
+
+<!-- food preview section starts  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/cogumelos.png" alt="">
+      <h3>Cogumelo</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$70</div>
+      <a href="#" class="btn">Compre Agora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/Parma.png" alt="">
+      <h3>Parma</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$75</div>
+      <a href="#" class="btn">Compre Agora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/Marguerita.png" alt="">
+      <h3>Marguerita</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$60</div>
+      <a href="#" class="btn">Compre Agora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/musssssarela.png" alt="">
+      <h3>Mussarela/h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$60</div>
+      <a href="#" class="btn">$60</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/vegana.png" alt="">
+      <h3>Vegana</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, hic!</p>
+      <div class="price">$55</div>
+      <a href="#" class="btn">Compre Agora</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>Nosso Cardápio</span>
+      <h3>Pratos</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/pasta1.jpg" class="box">
+         <img src="images/pasta1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/pasta2.jpg" class="box">
+         <img src="images/pasta2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/pizza1.jpg" class="box">
+         <img src="images/pizza1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/pizza2.jpg" class="box">
+         <img src="images/pizza2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/cake1.jpg" class="box">
+         <img src="images/cake1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/icecream.jpg" class="box">
+         <img src="images/icecream.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>Nosso Menu</span>
+      <h3>Nossos Pratos</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Pizzas</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Calabresa</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Mussarela</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Vegana</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Toscana</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Portuguesa</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pepperoni</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Massas</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Carbonara</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>4 Queijos</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Penny</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Alfredo</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Bebidas</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Coca-Cola</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sucos</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Tônica</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Água</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Milk-Shake</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Sobremesa</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Bolo</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Torta</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sorvete</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>cMousse</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Canole</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pudim</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Alcoólicas</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Whisky</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cerveja</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Vodka</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Gin</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, dolores.</p>
+                  </div>
+                  <div class="price">$49.99</div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+   <div class="heading">
+      <span>Peça Agora</span>
+      <h3>Entrega à domicílio</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>Nome</span>
+               <input type="text" placeholder="Seu Nome">
+            </div>
+            <div class="inputBox">
+               <span>Pedidos</span>
+               <input type="text" placeholder="Seu pedido">
+            </div>
+            <div class="inputBox">
+               <span>Observações</span>
+               <input type="text" placeholder="Observações">
+            </div>
+            <div class="inputBox">
+               <span>Endereço</span>
+               <textarea name="" placeholder="Seu Endereço" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>Número</span>
+               <input type="number" placeholder="Seu numero">
+            </div>
+            <div class="inputBox">
+               <span>Quantidade</span>
+            <input type="number" placeholder="Quantidade">
+            </div>
+            <div class="inputBox">
+               <span>Horário de entrega</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>Local</span>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d58866.5866008942!2d-43.484524660957035!3d-22.759381032723958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e2!4m5!1s0x995d694889f955%3A0x23ff502568217834!2sNova%20Igua%C3%A7u%2C%20RJ!3m2!1d-22.759463999999998!2d-43.449504999999995!4m0!5e0!3m2!1spt-BR!2sbr!4v1651888207582!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </div>
+      <input type="submit" value="Peça Agora" class="btn">
+   </form>
+   
+</section>
+
+<!-- order section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>Nossos Destaques</span>
+      <h3>Mais Pedidos</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog1.jpg" alt="">
+               <span>Pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> </a>
+                  <a href="#"> <i class="fas fa-user"></i> </a>
+               </div>
+               <a href="#" class="title">Manjericão</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog2.jpg" alt="">
+               <span>Macarrão</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i></a>
+                  <a href="#"> <i class="fas fa-user"></i></a>
+               </div>
+               <a href="#" class="title">Carbonara</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog3.jpg" alt="">
+               <span>Bolo</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i></a>
+                  <a href="#"> <i class="fas fa-user"></i></a>
+               </div>
+               <a href="#" class="title">Red Velvet</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog4.jpg" alt="">
+               <span>Pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i></a>
+                  <a href="#"> <i class="fas fa-user"></i></a>
+               </div>
+               <a href="#" class="title">Vegana</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog5.jpg" alt="">
+               <span>Bolo</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i></a>
+                  <a href="#"> <i class="fas fa-user"></i></a>
+               </div>
+               <a href="#" class="title">Amargo</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog6.jpg" alt="">
+               <span>Macarrão</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i></a>
+                  <a href="#"> <i class="fas fa-user"></i></a>
+               </div>
+               <a href="#" class="title">Pesto</a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, reprehenderit!</p>
+               <a href="#" class="btn">Saiba Mais</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>Nossos Horários</h3>
+         <p>18:00 às 02:00</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>Contato</h3>
+         <p>(00) 00000-0000</p>
+         <p>(00) 00000-0000</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>xxxxx@gmail.com</p>
+         <p>xxxxx@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>Endereço</h3>
+         <p>Rio de Janeiro- Nova iguaçu</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
